@@ -7,15 +7,16 @@ export const About = () => {
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
           About <span className="text-primary">Waypoint Labs</span>
         </h2>
-        
+
         <div className="prose prose-lg prose-invert max-w-none mb-12">
           <p className="text-xl text-foreground/90 leading-relaxed mb-6">
-            Waypoint Labs LLC is on a mission to build technology that empowers people to explore the world and themselves. 
-            Our goal is to create innovative solutions that support meaningful journeys—whether on the road, in the field, or beyond. 
-            Our work spans transportation & logistics, agriculture, travel, and location-based services, enhancing mobility, efficiency, and discovery.
+            Waypoint Labs LLC is on a mission to build technology that empowers people to explore the world. Our goal is
+            to create innovative solutions that support meaningful journeys—whether on the road, in the field, or
+            beyond. Our work spans transportation & logistics, agriculture, travel, and location-based services,
+            enhancing mobility, efficiency, and discovery.
           </p>
           <p className="text-lg text-foreground/80 leading-relaxed">
-            Waypoint Labs is founded by a software developer who is also an over-the-road expedite truck driver, 
+            Waypoint Labs is founded by a software developer who is also an over-the-road expedite truck driver,
             building tools that make life on the road smarter, healthier, and more financially free.
           </p>
         </div>
