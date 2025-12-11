@@ -1,7 +1,6 @@
 import { User, Target, Zap } from "lucide-react";
 export const About = () => {
-  return (
-    <section id="about" className="py-24 px-4 bg-card/50">
+  return <section id="about" className="py-24 px-4 bg-card/50">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
           About <span className="text-primary">Waypoint Labs</span>
@@ -9,33 +8,17 @@ export const About = () => {
 
         <div className="prose prose-lg prose-invert max-w-none mb-12">
           <p className="text-xl text-foreground/90 leading-relaxed mb-6">
-            Waypoint Labs LLC builds technology that helps people explore the world and do their work better. We create
-            practical tools that support meaningful journeys—on the highway, in the field, or across new cities. Our
-            work spans transportation and logistics, agriculture, travel, and location-based services, with a focus on
-            improving mobility, efficiency, and discovery.
+            ​Waypoint Labs LLC builds technology that helps people explore the world and do their work better. We create practical tools that support meaningful journeys—on the highway, in the field, or across new cities. Our work spans transportation and logistics, agriculture, travel, and location-based services, with a focus on improving mobility, efficiency, and discovery.
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="p-6 rounded-lg bg-secondary/50 border border-border hover:border-primary/50 transition-colors">
-            <User className="w-10 h-10 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Built by</h3>
-            <p className="text-muted-foreground">Solo dev/founder on the road</p>
-          </div>
+          
 
-          <div className="p-6 rounded-lg bg-secondary/50 border border-border hover:border-primary/50 transition-colors">
-            <Target className="w-10 h-10 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Focus</h3>
-            <p className="text-muted-foreground">Logistics, mobility, wellness, finance</p>
-          </div>
+          
 
-          <div className="p-6 rounded-lg bg-secondary/50 border border-border hover:border-primary/50 transition-colors">
-            <Zap className="w-10 h-10 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Approach</h3>
-            <p className="text-muted-foreground">Practical tools, shipped fast, iterated often</p>
-          </div>
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
