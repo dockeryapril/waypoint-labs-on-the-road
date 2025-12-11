@@ -1,8 +1,6 @@
 import { User, Target, Zap } from "lucide-react";
-
 export const About = () => {
-  return (
-    <section id="about" className="py-24 px-4 bg-card/50">
+  return <section id="about" className="py-24 px-4 bg-card/50">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
           About <span className="text-primary">Waypoint Labs</span>
@@ -15,10 +13,7 @@ export const About = () => {
             beyond. Our work spans transportation & logistics, agriculture, travel, and location-based services,
             enhancing mobility, efficiency, and discovery.
           </p>
-          <p className="text-lg text-foreground/80 leading-relaxed">
-            Waypoint Labs is founded by a software developer who is also an over-the-road expedite truck driver,
-            building tools that make life on the road smarter, healthier, and more financially free.
-          </p>
+          
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -41,6 +36,5 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
