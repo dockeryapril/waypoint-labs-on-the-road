@@ -36,11 +36,11 @@ export const Hero = () => {
         </div>
         
         <p className="text-2xl md:text-3xl text-foreground/90 font-light max-w-3xl mx-auto leading-relaxed">
-          Building tech to explore the world and ourselves while on the road.
+          Independent software studio building web and mobile apps, dashboards, and AI tools for people who live and work in motion.
         </p>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-          Independent software studio building web and mobile apps, dashboards, and AI tools for people who live and work in motion.
+          ​
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
