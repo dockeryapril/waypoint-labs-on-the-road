@@ -47,13 +47,14 @@ export default {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
   			},
-  			waypoint: {
-  				navy: 'hsl(var(--waypoint-navy))',
-  				slate: 'hsl(var(--waypoint-slate))',
-  				amber: 'hsl(var(--waypoint-amber))',
-  				'amber-glow': 'hsl(var(--waypoint-amber-glow))',
-  				border: 'hsl(var(--waypoint-border))'
-  			}
+			waypoint: {
+				navy: 'hsl(var(--waypoint-navy))',
+				slate: 'hsl(var(--waypoint-slate))',
+				pink: 'hsl(var(--waypoint-pink))',
+				'pink-glow': 'hsl(var(--waypoint-pink-glow))',
+				yellow: 'hsl(var(--waypoint-yellow))',
+				border: 'hsl(var(--waypoint-border))'
+			}
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
