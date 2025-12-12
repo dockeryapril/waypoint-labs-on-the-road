@@ -25,7 +25,7 @@ export const Contact = () => {
         </h2>
         
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Want to collaborate, test a tool, or talk ideas? Reach out or subscribe for updates.
+          Want to collaborate, test a tool, or talk ideas? Reach out and let's talk.  
         </p>
 
         {/* Email subscription form */}
