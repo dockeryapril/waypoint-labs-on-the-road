@@ -8,14 +8,15 @@ const Index = () => {
   return <div className="min-h-screen">
       <Hero />
       <About />
-
+      <Projects />
       
+      <Roadmap />
       <Contact />
-
+      
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border bg-card/30">
         <div className="max-w-7xl mx-auto text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Waypoint Labs.</p>
+          <p>&copy; {new Date().getFullYear()} Waypoint Labs. Building tools for the road ahead.</p>
         </div>
       </footer>
     </div>;
