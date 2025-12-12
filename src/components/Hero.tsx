@@ -8,39 +8,18 @@ export const Hero = () => {
   };
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
-      {/* Solid dark background */}
-      <div className="absolute inset-0 bg-waypoint-navy" />
-
-      {/* Subtle grid pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: `
-              linear-gradient(hsl(var(--waypoint-yellow)) 1px, transparent 1px),
-              linear-gradient(90deg, hsl(var(--waypoint-yellow)) 1px, transparent 1px)
-            `,
-            backgroundSize: "80px 80px",
-          }}
-        />
-      </div>
-
-      {/* Glowing accent circles */}
-      <div className="absolute top-20 right-20 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse" />
-      <div
-        className="absolute bottom-20 left-20 w-96 h-96 bg-waypoint-yellow/10 rounded-full blur-3xl animate-pulse"
-        style={{ animationDelay: "1s" }}
-      />
+      {/* Solid yellow background */}
+      <div className="absolute inset-0 bg-waypoint-yellow" />
 
       <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
         <div className="flex items-center justify-center gap-2 mb-4">
           <MapPin className="w-8 h-8 text-primary" />
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-waypoint-navy">
             Waypoint Labs
           </h1>
         </div>
 
-        <p className="text-2xl md:text-3xl text-white/80 font-light max-w-3xl mx-auto leading-relaxed">
+        <p className="text-2xl md:text-3xl text-waypoint-navy/80 font-light max-w-3xl mx-auto leading-relaxed">
           Independent software studio building web and mobile apps, dashboards,
           and AI tools for people who live and work in motion.
         </p>
@@ -57,7 +36,7 @@ export const Hero = () => {
           <Button
             size="lg"
             variant="outline"
-            className="text-lg px-8 py-6 border-2 border-waypoint-yellow text-waypoint-yellow hover:bg-waypoint-yellow hover:text-waypoint-navy"
+            className="text-lg px-8 py-6 border-2 border-waypoint-navy text-waypoint-navy hover:bg-waypoint-navy hover:text-waypoint-yellow"
             onClick={() => scrollToSection("contact")}
           >
             Get in Touch
