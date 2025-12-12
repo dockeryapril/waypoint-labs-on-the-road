@@ -5,12 +5,11 @@ import { WhoItsFor } from "@/components/WhoItsFor";
 import { Roadmap } from "@/components/Roadmap";
 import { Contact } from "@/components/Contact";
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Hero />
       <About />
 
-      <Roadmap />
+      
       <Contact />
 
       {/* Footer */}
@@ -19,7 +18,6 @@ const Index = () => {
           <p>&copy; {new Date().getFullYear()} Waypoint Labs.</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
 export default Index;
