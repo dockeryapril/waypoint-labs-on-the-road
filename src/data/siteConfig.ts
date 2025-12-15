@@ -5,6 +5,6 @@ export const siteConfig = {
   contact: {
     email: "waypointlabsllc@gmail.com",
     github: "https://github.com/Waypoint-Labs-LLC",
-    linkedin: "https://linkedin.com/company/waypointlabs"
+    linkedin: "https://www.linkedin.com/in/aprildockery/"
   }
 };
