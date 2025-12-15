@@ -4,7 +4,7 @@ export const siteConfig = {
   description: "Independent software studio building tools for truckers, travelers, and creators.",
   contact: {
     email: "waypointlabsllc@gmail.com",
-    github: "https://github.com/waypointlabs",
+    github: "https://github.com/Waypoint-Labs-LLC",
     linkedin: "https://linkedin.com/company/waypointlabs"
   }
 };
