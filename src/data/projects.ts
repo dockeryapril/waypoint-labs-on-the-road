@@ -13,7 +13,7 @@ export const projects: Project[] = [
     id: "loadmaster-gpt",
     name: "LoadMasterGPT",
     category: "Logistics/Transportation",
-    description: "AI-assisted load analysis and planning for expedite and box-truck drivers. Helps evaluate offers, track RPM, and make smarter route decisions.",
+    description: "AI-assisted load analysis and planning for underserved expedite drivers with straight trucks, hotshots, or commercial vans. Helps evaluate offers, track RPM, and make smarter route decisions.",
     status: "Live (early access)",
     tags: ["AI", "Logistics", "Data analytics"],
     link: "#"
