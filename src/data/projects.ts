@@ -15,7 +15,7 @@ export const projects: Project[] = [
     category: "Trucking / Logistics",
     description: "AI-assisted load analysis and planning for expedite and box-truck drivers. Helps evaluate offers, track RPM, and make smarter route decisions.",
     status: "MVP live soon",
-    tags: ["AI", "Logistics", "Internal tool"],
+    tags: ["AI", "Logistics", "Data analytics"],
     link: "#"
   },
   {
