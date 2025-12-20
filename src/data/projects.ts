@@ -3,7 +3,7 @@ export interface Project {
   name: string;
   category: string;
   description: string;
-  status: "MVP live soon" | "In development" | "Concept" | "Internal";
+  status: "Live (early access)" | "In development" | "Concept" | "Internal";
   tags: string[];
   link?: string;
 }
@@ -14,7 +14,7 @@ export const projects: Project[] = [
     name: "LoadMaster GPT",
     category: "Trucking / Logistics",
     description: "AI-assisted load analysis and planning for expedite and box-truck drivers. Helps evaluate offers, track RPM, and make smarter route decisions.",
-    status: "MVP live soon",
+    status: "Live (early access)",
     tags: ["AI", "Logistics", "Data analytics"],
     link: "#"
   },

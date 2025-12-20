@@ -9,7 +9,7 @@ interface ProjectCardProps {
 }
 
 const statusColors = {
-  "MVP live soon": "bg-primary/20 text-primary border-primary/50",
+  "Live (early access)": "bg-primary/20 text-primary border-primary/50",
   "In development": "bg-blue-500/20 text-blue-400 border-blue-500/50",
   "Concept": "bg-purple-500/20 text-purple-400 border-purple-500/50",
   "Internal": "bg-green-500/20 text-green-400 border-green-500/50"
