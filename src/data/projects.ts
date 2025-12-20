@@ -11,7 +11,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "loadmaster-gpt",
-    name: "LoadMaster GPT",
+    name: "LoadMasterGPT",
     category: "Trucking / Logistics",
     description: "AI-assisted load analysis and planning for expedite and box-truck drivers. Helps evaluate offers, track RPM, and make smarter route decisions.",
     status: "Live (early access)",
