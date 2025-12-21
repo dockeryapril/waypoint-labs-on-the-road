@@ -25,7 +25,7 @@ export const projects: Project[] = [
     description: "AI-powered scam detection for freight email workflows. Protects brokers, dispatchers, and carriers from fake MC numbers, identity spoofing, and fraudulent rate confirmations through automated inbox scanning.",
     status: "In development",
     tags: ["AI", "Logistics", "Security"],
-    link: "#"
+    link: "https://freight-flag.lovable.app"
   },
   {
     id: "commitment-app",
