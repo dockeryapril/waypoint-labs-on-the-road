@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     id: "mindful-mixer",
     name: "Freight Flag",
-    category: "Wellness / Audio",
+    category: "Logistics / Transportation",
     description: "AI-powered scam detection for freight email workflows. Protects brokers, dispatchers, and carriers from fake MC numbers, identity spoofing, and fraudulent rate confirmations through automated inbox scanning.",
     status: "In development",
     tags: ["AI", "Logistics", "Security"],
