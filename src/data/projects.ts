@@ -26,23 +26,24 @@ export const projects: Project[] = [
     status: "In development",
     tags: ["AI", "Logistics", "Security"],
     link: "https://freight-flag.lovable.app"
-  },
-  {
-    id: "commitment-app",
-    name: "Commitment App",
-    category: "Habits / Self-Development",
-    description: "Simple 'days committed' tracker with affirmations and an emergency reset button for staying on track with one key habit.",
-    status: "Concept",
-    tags: ["Habits", "Self-development"],
-    link: "#"
-  },
-  {
-    id: "ledger-pro",
-    name: "Ledger Pro",
-    category: "Finance / Trucking",
-    description: "Tax deduction and expense dashboard for truckers, turning messy receipts into a clear picture at tax time.",
-    status: "Concept",
-    tags: ["Finance", "Trucking"],
-    link: "#"
   }
+  // Commented out until concepts are ready:
+  // {
+  //   id: "commitment-app",
+  //   name: "Commitment App",
+  //   category: "Habits / Self-Development",
+  //   description: "Simple 'days committed' tracker with affirmations and an emergency reset button for staying on track with one key habit.",
+  //   status: "Concept",
+  //   tags: ["Habits", "Self-development"],
+  //   link: "#"
+  // },
+  // {
+  //   id: "ledger-pro",
+  //   name: "Ledger Pro",
+  //   category: "Finance / Trucking",
+  //   description: "Tax deduction and expense dashboard for truckers, turning messy receipts into a clear picture at tax time.",
+  //   status: "Concept",
+  //   tags: ["Finance", "Trucking"],
+  //   link: "#"
+  // }
 ];
