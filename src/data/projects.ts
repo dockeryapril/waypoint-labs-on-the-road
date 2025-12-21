@@ -24,7 +24,7 @@ export const projects: Project[] = [
     category: "Wellness / Audio",
     description: "AI-powered scam detection for freight email workflows. Protects brokers, dispatchers, and carriers from fake MC numbers, identity spoofing, and fraudulent rate confirmations through automated inbox scanning.",
     status: "In development",
-    tags: ["Wellness", "Audio"],
+    tags: ["AI", "Audio"],
     link: "#"
   },
   {
