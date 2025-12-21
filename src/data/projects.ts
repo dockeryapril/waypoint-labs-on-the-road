@@ -20,7 +20,7 @@ export const projects: Project[] = [
   },
   {
     id: "mindful-mixer",
-    name: "Mindful Mixer",
+    name: "Freight Flag",
     category: "Wellness / Audio",
     description: "Nature sound and ambient mixer designed for drivers and travelers who need calm, focus, or sleep on the road.",
     status: "In development",
