@@ -43,7 +43,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             className="w-full group/btn text-primary hover:text-primary hover:bg-primary/10"
             asChild
           >
-            <a href="https://www.loadmastergpt.com/" target="_blank">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
               View the app
               <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
             </a>
