@@ -16,7 +16,7 @@ export const projects: Project[] = [
     description: "AI-assisted load analysis and planning for underserved expedite drivers with straight trucks, hotshots, or commercial vans. Helps evaluate offers, track RPM, and make smarter route decisions.",
     status: "Live (early access)",
     tags: ["AI", "Logistics", "Data analytics"],
-    link: "#"
+    link: "https://www.loadmastergpt.com/"
   },
   {
     id: "mindful-mixer",
