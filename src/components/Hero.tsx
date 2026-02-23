@@ -20,16 +20,16 @@ export const Hero = () => {
         </div>
 
         <p className="text-2xl md:text-3xl text-waypoint-navy/80 font-light max-w-3xl mx-auto leading-relaxed">
-          Independent software studio building web and mobile apps, dashboards,
-          and AI tools for people who live and work in motion.
+          Independent software studio building web and mobile apps, dashboards, and AI tools for people and businesses that live and work in motion.
+        
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
           <Button
             size="lg"
             className="group text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground"
-            onClick={() => scrollToSection("projects")}
-          >
+            onClick={() => scrollToSection("projects")}>
+
             View Projects
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
@@ -37,12 +37,12 @@ export const Hero = () => {
             size="lg"
             variant="outline"
             className="text-lg px-8 py-6 border-2 border-waypoint-navy text-waypoint-navy hover:bg-waypoint-navy hover:text-waypoint-yellow"
-            onClick={() => scrollToSection("contact")}
-          >
+            onClick={() => scrollToSection("contact")}>
+
             Get in Touch
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
