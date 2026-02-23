@@ -26,6 +26,14 @@ export const projects: Project[] = [
     status: "In development",
     tags: ["AI", "Logistics", "Security"],
     link: "https://freight-flag.lovable.app"
+  },
+  {
+    id: "escrow-watch",
+    name: "EscrowWatch",
+    category: "Logistics / Transportation",
+    description: "Financial transparency tool for lease-operator truck drivers. Tracks escrow deductions, lease progress, and settlement breakdowns to provide clarity, accountability, and dispute-ready reporting.",
+    status: "Concept",
+    tags: ["AI", "Logistics", "Security"]
   }
   // Commented out until concepts are ready:
   // {
