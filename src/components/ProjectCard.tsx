@@ -44,7 +44,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             asChild
           >
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-              View the app
+              {project.id === "importsmith" ? "View the prototype" : "View the app"}
               <ArrowRight className="ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
             </a>
           </Button>
