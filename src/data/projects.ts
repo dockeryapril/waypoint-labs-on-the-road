@@ -34,6 +34,15 @@ export const projects: Project[] = [
     description: "Financial transparency tool for lease-operator truck drivers. Tracks escrow deductions, lease progress, and settlement breakdowns to provide clarity, accountability, and dispute-ready reporting.",
     status: "Concept",
     tags: ["AI", "Logistics", "Security"]
+  },
+  {
+    id: "importsmith",
+    name: "ImportSmith",
+    category: "Ecommerce",
+    description: "Supplier catalog transformation tool that turns messy vendor CSV files into clean, Shopify-ready import files. Extracts specific categories, preserves image rows, strips bloated columns, applies markup pricing, and exports lean product files that import reliably.",
+    status: "Concept",
+    tags: ["Ecommerce", "Data Cleanup", "Automation"],
+    link: "https://importsmith-forge.lovable.app/"
   }
   // Commented out until concepts are ready:
   // {
